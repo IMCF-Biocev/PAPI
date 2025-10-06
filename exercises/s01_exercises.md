@@ -101,7 +101,7 @@ Before starting Exercise 1, make sure you have all necessary tools installed.
       However, `.py` is the standard extension and enables syntax highlighting, debugging, etc., in most editors.
 - Open your terminal (Anaconda Prompt or integrated terminal in VS Code).  
    - In VS Code it is under: `Terminal > New Terminal`.
-    - *in terminal*: Activate the environment **papi_intro**
+    - *in terminal*: Activate the environment **papi-intro**
     ```bash
     conda activate papi_intro
     ```

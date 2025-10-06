@@ -1,0 +1,11 @@
+Cell_ID,Group,State,Area,Mean_Intensity,Circularity
+1,Pre-conditioned,Unstarved,183.0,79.4,0.86
+2,Pre-conditioned,Unstarved,189.2,98.2,0.79
+3,Pre-conditioned,Unstarved,183.0,77.8,0.94
+4,Pre-conditioned,Unstarved,232.0,92.1,0.91
+5,Pre-conditioned,Unstarved,194.7,70.4,0.94
+1,Pre-conditioned,Starved,201.4,84.6,0.91
+2,Pre-conditioned,Starved,214.6,76.5,0.76
+3,Pre-conditioned,Starved,176.8,81.2,0.95
+4,Pre-conditioned,Starved,165.3,78.7,0.9
+5,Pre-conditioned,Starved,212.5,91.3,0.79

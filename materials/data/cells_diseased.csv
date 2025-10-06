@@ -1,0 +1,11 @@
+Cell_ID,Group,State,Area,Mean_Intensity,Circularity
+1,Diseased,Unstarved,190.6,179.5,0.96
+2,Diseased,Unstarved,188.6,150.4,0.95
+3,Diseased,Unstarved,153.2,156.3,0.98
+4,Diseased,Unstarved,163.8,137.9,0.92
+5,Diseased,Unstarved,176.6,136.1,0.87
+1,Diseased,Starved,204.5,141.6,0.93
+2,Diseased,Starved,200.9,152.0,0.99
+3,Diseased,Starved,214.9,158.8,0.89
+4,Diseased,Starved,191.8,131.6,0.91
+5,Diseased,Starved,252.4,180.8,0.96
