@@ -54,9 +54,9 @@ Before starting Exercise 1, make sure you have all necessary tools installed.
 
 6. **Activate created environment**:
     ```bash
-    conda activate papi_intro
+    conda activate papi-intro
     ```
-    After activating papi_intro, your prompt should change to:
+    After activating papi-intro, your prompt should change to:
 
     ```bash
     (papi_intro) C:\Users\Username>
