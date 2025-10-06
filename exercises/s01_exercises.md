@@ -4,6 +4,7 @@
 
 ## Exercises
 
+0. [Prepare Python virtual environment](#exercise0)
 1. [Running Your First Python Script](#exercise1)
 2. [Your First Jupyter Notebook](../materials/session_1/E02_first_notebook.ipynb)
 3. [Python foundations 01](../materials/session_1/E03_python_foundations_1.ipynb)
