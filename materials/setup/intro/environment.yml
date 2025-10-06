@@ -1,0 +1,21 @@
+# This file defines a complete Conda environment for the PAPI intro course.
+# It can be created with the command: conda env create -f environment.yml
+name: papi-intro
+channels:
+  - conda-forge
+  # - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-image
+  - imageio
+  - matplotlib
+  - seaborn
+  - scipy
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - ipycanvas
+  - stackview
+  - pip
