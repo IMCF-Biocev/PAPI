@@ -14,7 +14,7 @@ Before starting Exercise 1, make sure you have all necessary tools installed.
    - Download version for your platform.
    - Install to a location without spaces in the path!
    - Install with recommended settings.
-![alt text](../../assets/mf_settings.png)
+   - ![alt text](../../assets/mf_settings.png)
 
 
 3. **Open a terminal/prompt**:
