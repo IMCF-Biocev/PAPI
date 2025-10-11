@@ -32,7 +32,7 @@ Before starting Exercise 1, make sure you have all necessary tools installed.
 
 5. **Create the environment from the YAML file using mamba or conda**:
     ```bash
-    mamba env create -f environment.yml -y
+    mamba env create -f environment.yml
     ```
 
 6. **Activate created environment**
