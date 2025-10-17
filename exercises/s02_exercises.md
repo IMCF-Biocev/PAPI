@@ -17,4 +17,4 @@
 
 ### Additional materials
 
-- [Big dat awith Dask](../materials/extra/E_big_data.ipynb)
+- [Big data with Dask](../materials/extra/E_big_data.ipynb)
