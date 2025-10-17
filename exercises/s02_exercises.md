@@ -17,4 +17,4 @@
 
 ### Additional materials
 
-- [Prepare new Python virtual environment](../materials/extra/E_big_data.ipynb)
+- [Big dat awith Dask](../materials/extra/E_big_data.ipynb)
