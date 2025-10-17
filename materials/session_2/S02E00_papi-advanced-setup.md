@@ -35,3 +35,23 @@
     conda install numpy=1.26.4 pandas=2.1.4 matplotlib seaborn scikit-image scikit-learn scipy ipywidgets jupyterlab trackpy
     ```
     Type `y` that you agree when prompted 
+
+<br>
+
+--- 
+
+6. **Verify installation**:
+- Create new jupyter notebook
+- Connect kernel to papi-advanced
+- Inside first cell type & run
+    ```python
+    from cellpose import models 
+    m = models.Cellpose(model_type='nuclei')
+    ```
+
+    - Inside second cell type & run
+    ```python
+    import napari   
+    v = napari.Viewer()
+    ```
+    Check if Napari window pops up and is not frozen (you can access menus)
