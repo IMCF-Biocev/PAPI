@@ -10,19 +10,20 @@
     (base) C:\Users\Username>
     ```
 
-2. **Run the following command to update your base env**:
+2. **(Optional) Run the following command to update your base env**:
+    For this, it is necessary to open the prompt as Administrator.
     ```bash
     conda update -n base conda
     ```
 
 3. **Create the new environment from scratch using mamba or conda**:
     ```bash
-    mamba create -n papi-advanced python=3.10
+    conda create -n papi-advanced python=3.10
     ```
 
 4. **!!! Activate created environment !!!**
     ```bash
-    mamba activate papi-advanced
+    conda activate papi-advanced
     ```
     After activating papi-advanced, your prompt should change to:
 
@@ -34,10 +35,9 @@
     ```bash
     pip install cellpose==3.1.1.1 napari[all] apoc stackview
     ```
-    Type `y` that you agree when prompted 
 
 5. **Install additional packages with mamba/conda**:
     ```bash
-    mamba install numpy=1.26.4 pandas=2.1.4 matplotlib seaborn scikit-image scikit-learn scipy ipywidgets jupyterlab trackpy
+    conda install numpy=1.26.4 pandas=2.1.4 matplotlib seaborn scikit-image scikit-learn scipy ipywidgets jupyterlab trackpy
     ```
     Type `y` that you agree when prompted 
