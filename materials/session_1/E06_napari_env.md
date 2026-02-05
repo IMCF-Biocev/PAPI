@@ -2,17 +2,17 @@
 
 You can access full Napari installation guide [here](https://napari.org/stable/tutorials/fundamentals/installation.html#napari-installation). 
 
-Follow the instructions below to create new virtual environment. Select a different environment name if you already have this one. 
+Follow the instructions below to create a new virtual environment. Select a different environment name if you already have this one. 
 
 You need to be in the terminal/prompt and make sure you are in the (base) environment. If your other evironment is active, deactivate it first.
 
-The following steps show how to create new environment containing Python and how to install *Napari* package inside. 
+The following steps show how to create a new environment containing Python and how to install *Napari* package inside. 
 
-(We use mamba, but conda would also work.)
+(We use conda, but mamba would also work.)
 
 ```bash
-mamba create -y -n napari-env -c conda-forge python=3.11
-mamba activate napari-env
+conda create -y -n napari-env -c conda-forge python=3.11
+conda activate napari-env
 python -m pip install "napari[all]"
 ```
 
