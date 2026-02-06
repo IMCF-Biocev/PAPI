@@ -24,16 +24,17 @@
     ```bash
     (papi-advanced) C:\Users\Username>
     ```
+4. **Install necessary packages with mamba/conda**:
+    ```bash
+    conda install numpy=1.26.4 pandas=2.1.4 matplotlib seaborn scikit-image scikit-learn scipy ipywidgets jupyterlab trackpy ipykernel=6.30.1
+    ```
 
-4. **Install necessary packages with pip**:
+
+5. **Install additional packages with pip**:
     ```bash
     pip install cellpose==3.1.1.1 napari[all] apoc stackview
     ```
 
-5. **Install additional packages with mamba/conda**:
-    ```bash
-    conda install numpy=1.26.4 pandas=2.1.4 matplotlib seaborn scikit-image scikit-learn scipy ipywidgets jupyterlab trackpy
-    ```
     Type `y` that you agree when prompted 
 
 <br>
@@ -45,13 +46,25 @@
 - Connect kernel to papi-advanced
 - Inside first cell type & run
     ```python
-    from cellpose import models 
-    m = models.Cellpose(model_type='nuclei')
-    ```
-
-    - Inside second cell type & run
-    ```python
     import napari   
     v = napari.Viewer()
     ```
     Check if Napari window pops up and is not frozen (you can access menus)
+
+- Inside second cell type & run
+    ```python
+    from cellpose import models 
+    m = models.Cellpose(model_type='nuclei')
+    ```
+    - **If the kernel is crashing**:
+        1. Close jupyter notebook 
+        2. Go back to prompt/terminal
+        3. Execute following commands: 
+            ```bash
+            pip uninstall -y torch
+            ```
+            ```bash
+            conda install pytorch
+            ```
+        - Verify cellpose functionality in jupyter notebook again
+
